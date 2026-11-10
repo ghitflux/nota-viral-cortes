@@ -1,0 +1,1175 @@
+{
+  "amostra": {
+    "cortes_pontuados": 680,
+    "posts_com_metricas": 64,
+    "cortes_publicados": 35,
+    "coletas": 2,
+    "coleta_usada": "2026-11-10",
+    "horas_no_ar_mediana": 39.4
+  },
+  "views_por_canal": {
+    "TikTok · Games": {
+      "posts": 12,
+      "views_mediana": 539.5,
+      "views_minimo": 60,
+      "views_maximo": 859,
+      "nota_mediana": 0.6605
+    },
+    "TikTok · Negócios": {
+      "posts": 12,
+      "views_mediana": 526.5,
+      "views_minimo": 6,
+      "views_maximo": 1139,
+      "nota_mediana": 0.608
+    },
+    "TikTok · Ciência": {
+      "posts": 10,
+      "views_mediana": 488.0,
+      "views_minimo": 207,
+      "views_maximo": 578,
+      "nota_mediana": 0.5225
+    },
+    "YouTube · Games": {
+      "posts": 11,
+      "views_mediana": 158.0,
+      "views_minimo": 0,
+      "views_maximo": 1662,
+      "nota_mediana": 0.665
+    },
+    "YouTube · Negócios": {
+      "posts": 11,
+      "views_mediana": 4.0,
+      "views_minimo": 1,
+      "views_maximo": 1196,
+      "nota_mediana": 0.599
+    },
+    "YouTube · Ciência": {
+      "posts": 8,
+      "views_mediana": 3.5,
+      "views_minimo": 1,
+      "views_maximo": 311,
+      "nota_mediana": 0.5195
+    }
+  },
+  "correlacoes": {
+    "Tudo junto (ingênua)": {
+      "posts": 64,
+      "correlação": 0.3845686795,
+      "IC 95% inferior": 0.1326414252,
+      "IC 95% superior": 0.5956281285,
+      "p": 0.0017038176
+    },
+    "Dentro de cada canal": {
+      "posts": 64,
+      "correlação": 0.3377564281,
+      "IC 95% inferior": 0.0302585921,
+      "IC 95% superior": 0.5767837365,
+      "p": 0.0079973342
+    },
+    "Dentro do canal, posts com mais de 24 h": {
+      "posts": 42,
+      "correlação": 0.0782529502,
+      "IC 95% inferior": -0.2998578917,
+      "IC 95% superior": 0.4417932937,
+      "p": 0.6434521826
+    },
+    "Dentro do canal, posts com menos de 24 h": {
+      "posts": 22,
+      "correlação": 0.7030075188,
+      "IC 95% inferior": -0.0263888889,
+      "IC 95% superior": 0.9318437988,
+      "p": 0.0043318894
+    }
+  },
+  "correlacao_por_canal": {
+    "TikTok · Ciência": {
+      "posts": 10,
+      "correlação": -0.3939393939,
+      "p": 0.2599977668
+    },
+    "TikTok · Games": {
+      "posts": 12,
+      "correlação": 0.4055944056,
+      "p": 0.190835874
+    },
+    "TikTok · Negócios": {
+      "posts": 12,
+      "correlação": 0.2167832168,
+      "p": 0.4985559855
+    },
+    "YouTube · Ciência": {
+      "posts": 8,
+      "correlação": 0.3415650255,
+      "p": 0.4076337385
+    },
+    "YouTube · Games": {
+      "posts": 11,
+      "correlação": 0.6059241233,
+      "p": 0.0481666321
+    },
+    "YouTube · Negócios": {
+      "posts": 11,
+      "correlação": 0.7899625734,
+      "p": 0.0038173877
+    }
+  },
+  "checagens": {
+    "Todos os posts": {
+      "posts": 64,
+      "correlação dentro do canal": 0.3377564281,
+      "IC 95% inferior": 0.0302585921,
+      "IC 95% superior": 0.5767837365
+    },
+    "Sem o post de mais views de cada canal": {
+      "posts": 58,
+      "correlação dentro do canal": 0.3064597931,
+      "IC 95% inferior": -0.0655295723,
+      "IC 95% superior": 0.5770416324
+    },
+    "Dentro do canal e do dia de publicação": {
+      "posts": 64,
+      "correlação dentro do canal": 0.194889371,
+      "IC 95% inferior": -0.209299954,
+      "IC 95% superior": 0.5122824436
+    }
+  },
+  "views_por_idade": [
+    {
+      "plataforma": "tiktok",
+      "horas_no_ar": "menos de 24 h",
+      "posts": 12,
+      "views_mediana": 517.0,
+      "nota_mediana": 0.6345
+    },
+    {
+      "plataforma": "tiktok",
+      "horas_no_ar": "24 a 48 h",
+      "posts": 14,
+      "views_mediana": 522.0,
+      "nota_mediana": 0.5745
+    },
+    {
+      "plataforma": "tiktok",
+      "horas_no_ar": "mais de 48 h",
+      "posts": 8,
+      "views_mediana": 498.0,
+      "nota_mediana": 0.6285
+    },
+    {
+      "plataforma": "youtube",
+      "horas_no_ar": "menos de 24 h",
+      "posts": 10,
+      "views_mediana": 76.0,
+      "nota_mediana": 0.6345
+    },
+    {
+      "plataforma": "youtube",
+      "horas_no_ar": "24 a 48 h",
+      "posts": 11,
+      "views_mediana": 4.0,
+      "nota_mediana": 0.565
+    },
+    {
+      "plataforma": "youtube",
+      "horas_no_ar": "mais de 48 h",
+      "posts": 9,
+      "views_mediana": 5.0,
+      "nota_mediana": 0.638
+    }
+  ],
+  "ganho_da_nota_alta": {
+    "razao_de_views": 1.0573673955316467,
+    "ic95_inferior": 0.983479619481559,
+    "ic95_superior": 2.781549700276933
+  },
+  "componentes_da_nota": {
+    "ensina algo": {
+      "correlação ingênua": -0.0393057293,
+      "correlação dentro do canal": 0.2705585282,
+      "p": 0.0379810095,
+      "p ajustado": 0.2923538231
+    },
+    "gancho nos 3 primeiros segundos": {
+      "correlação ingênua": 0.190961147,
+      "correlação dentro do canal": 0.2465998595,
+      "p": 0.0584707646,
+      "p ajustado": 0.2923538231
+    },
+    "humor": {
+      "correlação ingênua": 0.2133589101,
+      "correlação dentro do canal": 0.213680776,
+      "p": 0.1109445277,
+      "p ajustado": 0.3058470765
+    },
+    "dá vontade de compartilhar": {
+      "correlação ingênua": 0.0896941682,
+      "correlação dentro do canal": 0.2018096671,
+      "p": 0.127936032,
+      "p ajustado": 0.3058470765
+    },
+    "nota do juiz de IA": {
+      "correlação ingênua": 0.0734448391,
+      "correlação dentro do canal": 0.1830367479,
+      "p": 0.1529235382,
+      "p ajustado": 0.3058470765
+    },
+    "nota das métricas do vídeo de origem": {
+      "correlação ingênua": 0.2919182084,
+      "correlação dentro do canal": 0.1241304622,
+      "p": 0.3458270865,
+      "p ajustado": 0.5763784774
+    },
+    "começo, meio e fim": {
+      "correlação ingênua": -0.0840952495,
+      "correlação dentro do canal": -0.1144784214,
+      "p": 0.4052973513,
+      "p ajustado": 0.5789962162
+    },
+    "energia": {
+      "correlação ingênua": 0.0548689794,
+      "correlação dentro do canal": 0.0692683728,
+      "p": 0.6236881559,
+      "p ajustado": 0.7096451774
+    },
+    "faz sentido sozinho": {
+      "correlação ingênua": -0.007980871,
+      "correlação dentro do canal": 0.0641143575,
+      "p": 0.6386806597,
+      "p ajustado": 0.7096451774
+    },
+    "emoção": {
+      "correlação ingênua": 0.0609037668,
+      "correlação dentro do canal": -0.0218180648,
+      "p": 0.8650674663,
+      "p ajustado": 0.8650674663
+    }
+  },
+  "nota_por_nicho": {
+    "Ciência": {
+      "cortes": 197,
+      "mediana": 0.521,
+      "p25": 0.438,
+      "p75": 0.6
+    },
+    "Games": {
+      "cortes": 190,
+      "mediana": 0.5605,
+      "p25": 0.48825,
+      "p75": 0.64125
+    },
+    "Negócios": {
+      "cortes": 233,
+      "mediana": 0.509,
+      "p25": 0.413,
+      "p75": 0.602
+    }
+  },
+  "restricao_de_faixa": {
+    "nota_p10_todos": 0.33560000000000006,
+    "nota_p90_todos": 0.6681,
+    "nota_p10_publicados": 0.5194,
+    "nota_p90_publicados": 0.7111999999999999,
+    "desvio_todos": 0.1339609662031569,
+    "desvio_publicados": 0.07967918868339272,
+    "correlacao_observada": 0.33775642807779854,
+    "correlacao_corrigida": 0.5165773605943573
+  },
+  "limiar_de_aprovacao": {
+    "limiar": 0.8,
+    "nota_maxima": 0.799,
+    "cortes_no_limiar": 0,
+    "cortes_acima_de_0_70": 43,
+    "total": 680
+  },
+  "crescimento_entre_coletas": [
+    {
+      "plataforma": "tiktok",
+      "mais_de_um_dia": false,
+      "posts": 11,
+      "ganho_mediano": 138.0,
+      "ganho_relativo_mediano": 0.9309309309
+    },
+    {
+      "plataforma": "tiktok",
+      "mais_de_um_dia": true,
+      "posts": 20,
+      "ganho_mediano": 1.0,
+      "ganho_relativo_mediano": 0.0026465507
+    },
+    {
+      "plataforma": "youtube",
+      "mais_de_um_dia": false,
+      "posts": 9,
+      "ganho_mediano": 1.0,
+      "ganho_relativo_mediano": 0.2393736018
+    },
+    {
+      "plataforma": "youtube",
+      "mais_de_um_dia": true,
+      "posts": 18,
+      "ganho_mediano": 0.0,
+      "ganho_relativo_mediano": 0.0
+    }
+  ],
+  "plano_de_amostra": {
+    "posts_hoje": 64,
+    "detectavel_hoje": 0.3440739378456237,
+    "detectavel_por_cortes": 0.4583772716547169,
+    "tabela": {
+      "0.5": {
+        "posts necessários": 30,
+        "semana em que a agenda chega lá": "2026-11-02"
+      },
+      "0.4": {
+        "posts necessários": 47,
+        "semana em que a agenda chega lá": "2026-11-09"
+      },
+      "0.3": {
+        "posts necessários": 85,
+        "semana em que a agenda chega lá": "2026-11-09"
+      },
+      "0.2": {
+        "posts necessários": 194,
+        "semana em que a agenda chega lá": "2026-11-23"
+      }
+    }
+  },
+  "marcos_da_agenda": [
+    {
+      "marco": "hoje",
+      "posts": 64
+    },
+    {
+      "marco": "fim de novembro",
+      "posts": 248
+    },
+    {
+      "marco": "fim de dezembro",
+      "posts": 472
+    },
+    {
+      "marco": "fim da agenda",
+      "posts": 1006
+    }
+  ],
+  "curva_de_poder": [
+    {
+      "posts": 10,
+      "correlação detectável": 0.7852
+    },
+    {
+      "posts": 11,
+      "correlação detectável": 0.7576
+    },
+    {
+      "posts": 12,
+      "correlação detectável": 0.7324
+    },
+    {
+      "posts": 13,
+      "correlação detectável": 0.7094
+    },
+    {
+      "posts": 14,
+      "correlação detectável": 0.6883
+    },
+    {
+      "posts": 15,
+      "correlação detectável": 0.6689
+    },
+    {
+      "posts": 16,
+      "correlação detectável": 0.651
+    },
+    {
+      "posts": 17,
+      "correlação detectável": 0.6344
+    },
+    {
+      "posts": 19,
+      "correlação detectável": 0.6046
+    },
+    {
+      "posts": 20,
+      "correlação detectável": 0.5912
+    },
+    {
+      "posts": 22,
+      "correlação detectável": 0.5668
+    },
+    {
+      "posts": 24,
+      "correlação detectável": 0.5451
+    },
+    {
+      "posts": 26,
+      "correlação detectável": 0.5257
+    },
+    {
+      "posts": 28,
+      "correlação detectável": 0.5082
+    },
+    {
+      "posts": 31,
+      "correlação detectável": 0.485
+    },
+    {
+      "posts": 33,
+      "correlação detectável": 0.4711
+    },
+    {
+      "posts": 36,
+      "correlação detectável": 0.4524
+    },
+    {
+      "posts": 39,
+      "correlação detectável": 0.4357
+    },
+    {
+      "posts": 42,
+      "correlação detectável": 0.4208
+    },
+    {
+      "posts": 45,
+      "correlação detectável": 0.4072
+    },
+    {
+      "posts": 49,
+      "correlação detectável": 0.3911
+    },
+    {
+      "posts": 53,
+      "correlação detectável": 0.3767
+    },
+    {
+      "posts": 58,
+      "correlação detectável": 0.3608
+    },
+    {
+      "posts": 62,
+      "correlação detectável": 0.3494
+    },
+    {
+      "posts": 68,
+      "correlação detectável": 0.3342
+    },
+    {
+      "posts": 73,
+      "correlação detectável": 0.3229
+    },
+    {
+      "posts": 79,
+      "correlação detectável": 0.3107
+    },
+    {
+      "posts": 86,
+      "correlação detectável": 0.2982
+    },
+    {
+      "posts": 93,
+      "correlação detectável": 0.287
+    },
+    {
+      "posts": 101,
+      "correlação detectável": 0.2757
+    },
+    {
+      "posts": 109,
+      "correlação detectável": 0.2656
+    },
+    {
+      "posts": 118,
+      "correlação detectável": 0.2555
+    },
+    {
+      "posts": 128,
+      "correlação detectável": 0.2455
+    },
+    {
+      "posts": 139,
+      "correlação detectável": 0.2357
+    },
+    {
+      "posts": 150,
+      "correlação detectável": 0.227
+    },
+    {
+      "posts": 163,
+      "correlação detectável": 0.2179
+    },
+    {
+      "posts": 176,
+      "correlação detectável": 0.2098
+    },
+    {
+      "posts": 191,
+      "correlação detectável": 0.2015
+    },
+    {
+      "posts": 206,
+      "correlação detectável": 0.1941
+    },
+    {
+      "posts": 224,
+      "correlação detectável": 0.1863
+    },
+    {
+      "posts": 242,
+      "correlação detectável": 0.1793
+    },
+    {
+      "posts": 262,
+      "correlação detectável": 0.1723
+    },
+    {
+      "posts": 284,
+      "correlação detectável": 0.1656
+    },
+    {
+      "posts": 307,
+      "correlação detectável": 0.1593
+    },
+    {
+      "posts": 333,
+      "correlação detectável": 0.153
+    },
+    {
+      "posts": 361,
+      "correlação detectável": 0.147
+    },
+    {
+      "posts": 390,
+      "correlação detectável": 0.1415
+    },
+    {
+      "posts": 423,
+      "correlação detectável": 0.1359
+    },
+    {
+      "posts": 458,
+      "correlação detectável": 0.1306
+    },
+    {
+      "posts": 496,
+      "correlação detectável": 0.1255
+    },
+    {
+      "posts": 537,
+      "correlação detectável": 0.1206
+    },
+    {
+      "posts": 582,
+      "correlação detectável": 0.1159
+    },
+    {
+      "posts": 630,
+      "correlação detectável": 0.1114
+    },
+    {
+      "posts": 682,
+      "correlação detectável": 0.1071
+    },
+    {
+      "posts": 739,
+      "correlação detectável": 0.1029
+    },
+    {
+      "posts": 800,
+      "correlação detectável": 0.0989
+    },
+    {
+      "posts": 866,
+      "correlação detectável": 0.0951
+    },
+    {
+      "posts": 938,
+      "correlação detectável": 0.0914
+    },
+    {
+      "posts": 1016,
+      "correlação detectável": 0.0878
+    },
+    {
+      "posts": 1100,
+      "correlação detectável": 0.0844
+    }
+  ],
+  "pontos": [
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.781,
+      "views": 1662,
+      "curtidas": 63,
+      "horas_no_ar": 22.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.781,
+      "views": 642,
+      "curtidas": 39,
+      "horas_no_ar": 22.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.773,
+      "views": 1172,
+      "curtidas": 25,
+      "horas_no_ar": 16.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.773,
+      "views": 576,
+      "curtidas": 15,
+      "horas_no_ar": 16.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.76,
+      "views": 1190,
+      "curtidas": 23,
+      "horas_no_ar": 13.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.76,
+      "views": 616,
+      "curtidas": 18,
+      "horas_no_ar": 13.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.638,
+      "views": 1059,
+      "curtidas": 21,
+      "horas_no_ar": 12.4
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.638,
+      "views": 859,
+      "curtidas": 30,
+      "horas_no_ar": 12.4
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.633,
+      "views": 0,
+      "curtidas": 0,
+      "horas_no_ar": 1.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.633,
+      "views": 60,
+      "curtidas": 2,
+      "horas_no_ar": 1.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.52,
+      "views": 1,
+      "curtidas": 0,
+      "horas_no_ar": 64.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.52,
+      "views": 493,
+      "curtidas": 23,
+      "horas_no_ar": 64.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.658,
+      "views": 271,
+      "curtidas": 6,
+      "horas_no_ar": 19.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.537,
+      "views": 15,
+      "curtidas": 0,
+      "horas_no_ar": 40.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.537,
+      "views": 375,
+      "curtidas": 5,
+      "horas_no_ar": 40.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.638,
+      "views": 2,
+      "curtidas": 0,
+      "horas_no_ar": 61.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.638,
+      "views": 207,
+      "curtidas": 3,
+      "horas_no_ar": 61.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.585,
+      "views": 311,
+      "curtidas": 1,
+      "horas_no_ar": 49.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.585,
+      "views": 503,
+      "curtidas": 8,
+      "horas_no_ar": 49.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.519,
+      "views": 5,
+      "curtidas": 0,
+      "horas_no_ar": 46.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.519,
+      "views": 509,
+      "curtidas": 31,
+      "horas_no_ar": 46.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.525,
+      "views": 530,
+      "curtidas": 19,
+      "horas_no_ar": 43.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.49,
+      "views": 1,
+      "curtidas": 0,
+      "horas_no_ar": 37.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.483,
+      "views": 483,
+      "curtidas": 23,
+      "horas_no_ar": 22.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.49,
+      "views": 273,
+      "curtidas": 11,
+      "horas_no_ar": 37.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.509,
+      "views": 1,
+      "curtidas": 0,
+      "horas_no_ar": 25.9
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "plataforma": "tiktok",
+      "nicho": "Ciência",
+      "nota": 0.509,
+      "views": 578,
+      "curtidas": 15,
+      "horas_no_ar": 25.9
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "plataforma": "youtube",
+      "nicho": "Ciência",
+      "nota": 0.483,
+      "views": 7,
+      "curtidas": 0,
+      "horas_no_ar": 22.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.7,
+      "views": 1196,
+      "curtidas": 12,
+      "horas_no_ar": 49.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.7,
+      "views": 513,
+      "curtidas": 14,
+      "horas_no_ar": 49.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.701,
+      "views": 547,
+      "curtidas": 10,
+      "horas_no_ar": 43.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.661,
+      "views": 514,
+      "curtidas": 25,
+      "horas_no_ar": 46.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.661,
+      "views": 331,
+      "curtidas": 9,
+      "horas_no_ar": 46.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.617,
+      "views": 2,
+      "curtidas": 0,
+      "horas_no_ar": 16.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.617,
+      "views": 1139,
+      "curtidas": 61,
+      "horas_no_ar": 16.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.619,
+      "views": 33,
+      "curtidas": 1,
+      "horas_no_ar": 64.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.619,
+      "views": 274,
+      "curtidas": 1,
+      "horas_no_ar": 64.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.636,
+      "views": 145,
+      "curtidas": 4,
+      "horas_no_ar": 22.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.636,
+      "views": 551,
+      "curtidas": 32,
+      "horas_no_ar": 22.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.584,
+      "views": 2,
+      "curtidas": 0,
+      "horas_no_ar": 25.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.584,
+      "views": 643,
+      "curtidas": 5,
+      "horas_no_ar": 25.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.599,
+      "views": 5,
+      "curtidas": 1,
+      "horas_no_ar": 61.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.599,
+      "views": 539,
+      "curtidas": 10,
+      "horas_no_ar": 61.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.543,
+      "views": 6,
+      "curtidas": 0,
+      "horas_no_ar": 13.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.565,
+      "views": 3,
+      "curtidas": 0,
+      "horas_no_ar": 40.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.565,
+      "views": 511,
+      "curtidas": 6,
+      "horas_no_ar": 40.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.543,
+      "views": 4,
+      "curtidas": 0,
+      "horas_no_ar": 13.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.532,
+      "views": 1,
+      "curtidas": 0,
+      "horas_no_ar": 1.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.532,
+      "views": 33,
+      "curtidas": 1,
+      "horas_no_ar": 1.9
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "plataforma": "youtube",
+      "nicho": "Negócios",
+      "nota": 0.54,
+      "views": 4,
+      "curtidas": 0,
+      "horas_no_ar": 37.9
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "plataforma": "tiktok",
+      "nicho": "Negócios",
+      "nota": 0.54,
+      "views": 617,
+      "curtidas": 4,
+      "horas_no_ar": 37.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.718,
+      "views": 331,
+      "curtidas": 6,
+      "horas_no_ar": 61.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.718,
+      "views": 265,
+      "curtidas": 4,
+      "horas_no_ar": 61.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.665,
+      "views": 5,
+      "curtidas": 0,
+      "horas_no_ar": 49.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.683,
+      "views": 536,
+      "curtidas": 21,
+      "horas_no_ar": 64.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.685,
+      "views": 177,
+      "curtidas": 5,
+      "horas_no_ar": 43.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.683,
+      "views": 0,
+      "curtidas": 0,
+      "horas_no_ar": 64.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.62,
+      "views": 46,
+      "curtidas": 0,
+      "horas_no_ar": 46.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.62,
+      "views": 134,
+      "curtidas": 0,
+      "horas_no_ar": 46.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.627,
+      "views": 347,
+      "curtidas": 7,
+      "horas_no_ar": 19.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.628,
+      "views": 1,
+      "curtidas": 0,
+      "horas_no_ar": 40.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.628,
+      "views": 543,
+      "curtidas": 22,
+      "horas_no_ar": 40.9
+    },
+    {
+      "canal": "YouTube · Games",
+      "plataforma": "youtube",
+      "nicho": "Games",
+      "nota": 0.618,
+      "views": 158,
+      "curtidas": 3,
+      "horas_no_ar": 37.9
+    },
+    {
+      "canal": "TikTok · Games",
+      "plataforma": "tiktok",
+      "nicho": "Games",
+      "nota": 0.618,
+      "views": 547,
+      "curtidas": 25,
+      "horas_no_ar": 37.9
+    }
+  ]
+}
