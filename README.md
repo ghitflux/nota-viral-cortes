@@ -143,3 +143,20 @@ Outros projetos: [`dedico-trafego-decisao`](https://github.com/ghitflux/dedico-t
 [`lead-scoring-conversao`](https://github.com/ghitflux/lead-scoring-conversao) ·
 [`ab-test-simulado`](https://github.com/ghitflux/ab-test-simulado) ·
 [`stats-foundations`](https://github.com/ghitflux/stats-foundations)
+
+## Como este estudo foi feito
+
+Este estudo foi construído com assistência de IA (Claude Code, da Anthropic), usada como par de programação.
+Declaro a divisão do trabalho porque ela importa para quem avalia:
+
+- **Meu:** a operação e os dados (a rede de cortes, a nota de viralidade que ela usa e a coleta diária de métricas são minhas) e a pergunta: a nota em que a operação confia prevê alguma coisa?, a leitura crítica dos resultados e a decisão do que publicar e do que declarar como limitação.
+- **Com o assistente:** a escolha do método, a implementação do código, dos testes e dos gráficos, e a redação,
+  que revisei.
+- **Como conferir:** todo número deste README sai de `reports/resultados.json`, gerado por `scripts/rodar_analise.py`; os testes em `tests/` conferem as funções estatísticas contra casos de resposta conhecida.
+
+É o mesmo jeito que trabalho nos sistemas que entrego: a IA acelera a implementação, e a responsabilidade pelo que
+está escrito aqui é minha.
+
+*In English: built with AI assistance (Claude Code) as a pair programmer. Direction, business context, critical
+review of the results and the decision of what to publish are mine; method choice, implementation and writing were
+done with the assistant and reviewed by me.*
