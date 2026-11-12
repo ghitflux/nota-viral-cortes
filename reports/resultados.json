@@ -1171,5 +1171,666 @@
       "curtidas": 25,
       "horas_no_ar": 37.9
     }
-  ]
+  ],
+  "para_o_site": {
+    "graficos_extras": [
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "A resposta muda conforme a comparação fica mais justa: 0,38 → 0,34 → 0,08",
+          "en": "The answer shifts as the comparison gets fairer: 0.38 → 0.34 → 0.08",
+          "es": "La respuesta cambia a medida que la comparación es más justa: 0,38 → 0,34 → 0,08"
+        },
+        "leitura": {
+          "pt": "Correlação de postos entre nota e views. Entre os 42 posts com views já estabilizadas, o intervalo de 95% vai de −0,30 a 0,44: o sinal vinha dos posts mais novos, e a amostra ainda não permite separar a nota do lote do dia.",
+          "en": "Rank correlation between score and views. Among the 42 posts whose views have settled, the 95% interval runs from −0.30 to 0.44: the signal came from the newest posts, and the sample cannot yet separate the score from the day's batch.",
+          "es": "Correlación de rangos entre nota y vistas. Entre los 42 posts con vistas ya estabilizadas, el intervalo del 95% va de −0,30 a 0,44: la señal venía de los posts más nuevos, y la muestra aún no permite separar la nota del lote del día."
+        },
+        "eixo_x": {
+          "pt": "Comparação",
+          "en": "Comparison",
+          "es": "Comparación"
+        },
+        "eixo_y": {
+          "pt": "Correlação de Spearman",
+          "en": "Spearman correlation",
+          "es": "Correlación de Spearman"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Correlação nota x views",
+              "en": "Score vs views correlation",
+              "es": "Correlación nota x vistas"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Tudo junto (ingênua)",
+                0.3846
+              ],
+              [
+                "Dentro de cada canal",
+                0.3378
+              ],
+              [
+                "Dentro do canal, mais de 24 h no ar",
+                0.0783
+              ],
+              [
+                "Dentro do canal, menos de 24 h no ar",
+                0.703
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Tudo junto (ingênua)",
+                "Dentro de cada canal",
+                "Dentro do canal, mais de 24 h no ar",
+                "Dentro do canal, menos de 24 h no ar"
+              ],
+              "en": [
+                "All together (naive)",
+                "Within each channel",
+                "Within channel, over 24 h live",
+                "Within channel, under 24 h live"
+              ],
+              "es": [
+                "Todo junto (ingenua)",
+                "Dentro de cada canal",
+                "Dentro del canal, más de 24 h",
+                "Dentro del canal, menos de 24 h"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "O canal pesa mais que a nota: mediana de 4 a 540 views conforme o canal",
+          "en": "The channel matters more than the score: median of 4 to 540 views by channel",
+          "es": "El canal pesa más que la nota: mediana de 4 a 540 vistas según el canal"
+        },
+        "leitura": {
+          "pt": "Mediana de views dos posts de cada canal. Cada canal joga numa faixa própria, e o nicho de games recebe as notas mais altas e é o único com audiência no YouTube; por isso a comparação justa é dentro do canal.",
+          "en": "Median views of each channel's posts. Each channel plays in its own range, and the gaming niche gets the highest scores and is the only one with a YouTube audience, so the fair comparison is within the channel.",
+          "es": "Mediana de vistas de los posts de cada canal. Cada canal juega en su propio rango, y el nicho de videojuegos recibe las notas más altas y es el único con audiencia en YouTube; por eso la comparación justa es dentro del canal."
+        },
+        "eixo_x": {
+          "pt": "Canal",
+          "en": "Channel",
+          "es": "Canal"
+        },
+        "eixo_y": {
+          "pt": "Mediana de views",
+          "en": "Median views",
+          "es": "Mediana de vistas"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Mediana de views",
+              "en": "Median views",
+              "es": "Mediana de vistas"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "TikTok · Games",
+                539.5
+              ],
+              [
+                "TikTok · Negócios",
+                526.5
+              ],
+              [
+                "TikTok · Ciência",
+                488.0
+              ],
+              [
+                "YouTube · Games",
+                158.0
+              ],
+              [
+                "YouTube · Negócios",
+                4.0
+              ],
+              [
+                "YouTube · Ciência",
+                3.5
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "TikTok · Games",
+                "TikTok · Negócios",
+                "TikTok · Ciência",
+                "YouTube · Games",
+                "YouTube · Negócios",
+                "YouTube · Ciência"
+              ],
+              "en": [
+                "TikTok · Gaming",
+                "TikTok · Business",
+                "TikTok · Science",
+                "YouTube · Gaming",
+                "YouTube · Business",
+                "YouTube · Science"
+              ],
+              "es": [
+                "TikTok · Videojuegos",
+                "TikTok · Negocios",
+                "TikTok · Ciencia",
+                "YouTube · Videojuegos",
+                "YouTube · Negocios",
+                "YouTube · Ciencia"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "tipo": "linhas",
+        "titulo": {
+          "pt": "Hoje a amostra só detecta correlação de 0,34 ou mais; 0,2 pede 194 posts",
+          "en": "Today the sample only detects correlations of 0.34 or more; 0.2 needs 194 posts",
+          "es": "Hoy la muestra solo detecta correlaciones de 0,34 o más; 0,2 pide 194 posts"
+        },
+        "leitura": {
+          "pt": "Menor correlação que a amostra detecta com 80% de poder, por número de posts. A agenda já programada soma 248 posts no fim de novembro, 472 posts no fim de dezembro, 1.006 posts no fim da agenda, e as métricas são coletadas todo dia.",
+          "en": "Smallest correlation the sample detects with 80% power, by number of posts. The publishing schedule already adds up to 248 posts by the end of November, 472 posts by the end of December, 1,006 posts by the end of the schedule, and metrics are collected daily.",
+          "es": "Menor correlación que la muestra detecta con 80% de potencia, por número de posts. La agenda ya programada suma 248 posts a fines de noviembre, 472 posts a fines de diciembre, 1.006 posts al final de la agenda, y las métricas se recogen todos los días."
+        },
+        "eixo_x": {
+          "pt": "Posts com métricas",
+          "en": "Posts with metrics",
+          "es": "Posts con métricas"
+        },
+        "eixo_y": {
+          "pt": "Correlação detectável",
+          "en": "Detectable correlation",
+          "es": "Correlación detectable"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Correlação detectável (80% de poder)",
+              "en": "Detectable correlation (80% power)",
+              "es": "Correlación detectable (80% de potencia)"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                10,
+                0.7852
+              ],
+              [
+                11,
+                0.7576
+              ],
+              [
+                12,
+                0.7324
+              ],
+              [
+                13,
+                0.7094
+              ],
+              [
+                14,
+                0.6883
+              ],
+              [
+                15,
+                0.6689
+              ],
+              [
+                16,
+                0.651
+              ],
+              [
+                17,
+                0.6344
+              ],
+              [
+                19,
+                0.6046
+              ],
+              [
+                20,
+                0.5912
+              ],
+              [
+                22,
+                0.5668
+              ],
+              [
+                24,
+                0.5451
+              ],
+              [
+                26,
+                0.5257
+              ],
+              [
+                28,
+                0.5082
+              ],
+              [
+                31,
+                0.485
+              ],
+              [
+                33,
+                0.4711
+              ],
+              [
+                36,
+                0.4524
+              ],
+              [
+                39,
+                0.4357
+              ],
+              [
+                42,
+                0.4208
+              ],
+              [
+                45,
+                0.4072
+              ],
+              [
+                49,
+                0.3911
+              ],
+              [
+                53,
+                0.3767
+              ],
+              [
+                58,
+                0.3608
+              ],
+              [
+                62,
+                0.3494
+              ],
+              [
+                68,
+                0.3342
+              ],
+              [
+                73,
+                0.3229
+              ],
+              [
+                79,
+                0.3107
+              ],
+              [
+                86,
+                0.2982
+              ],
+              [
+                93,
+                0.287
+              ],
+              [
+                101,
+                0.2757
+              ],
+              [
+                109,
+                0.2656
+              ],
+              [
+                118,
+                0.2555
+              ],
+              [
+                128,
+                0.2455
+              ],
+              [
+                139,
+                0.2357
+              ],
+              [
+                150,
+                0.227
+              ],
+              [
+                163,
+                0.2179
+              ],
+              [
+                176,
+                0.2098
+              ],
+              [
+                191,
+                0.2015
+              ],
+              [
+                206,
+                0.1941
+              ],
+              [
+                224,
+                0.1863
+              ],
+              [
+                242,
+                0.1793
+              ],
+              [
+                262,
+                0.1723
+              ],
+              [
+                284,
+                0.1656
+              ],
+              [
+                307,
+                0.1593
+              ],
+              [
+                333,
+                0.153
+              ],
+              [
+                361,
+                0.147
+              ],
+              [
+                390,
+                0.1415
+              ],
+              [
+                423,
+                0.1359
+              ],
+              [
+                458,
+                0.1306
+              ],
+              [
+                496,
+                0.1255
+              ],
+              [
+                537,
+                0.1206
+              ],
+              [
+                582,
+                0.1159
+              ],
+              [
+                630,
+                0.1114
+              ],
+              [
+                682,
+                0.1071
+              ],
+              [
+                739,
+                0.1029
+              ],
+              [
+                800,
+                0.0989
+              ],
+              [
+                866,
+                0.0951
+              ],
+              [
+                938,
+                0.0914
+              ],
+              [
+                1016,
+                0.0878
+              ],
+              [
+                1100,
+                0.0844
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "As views chegam no primeiro dia: no YouTube, 76 de mediana no lote novo contra 5",
+          "en": "Views arrive on day one: on YouTube, a median of 76 in the new batch vs 5",
+          "es": "Las vistas llegan el primer día: en YouTube, mediana de 76 en el lote nuevo frente a 5"
+        },
+        "leitura": {
+          "pt": "Mediana de views por tempo no ar. Depois de 24 horas o número quase não sobe; o lote mais recente do YouTube foi melhor que os anteriores, e é esse lote que inflava a correlação.",
+          "en": "Median views by time live. After 24 hours the count barely moves; YouTube's most recent batch did better than earlier ones, and that batch is what inflated the correlation.",
+          "es": "Mediana de vistas por tiempo publicado. Después de 24 horas el número casi no sube; el lote más reciente de YouTube rindió más que los anteriores, y es ese lote el que inflaba la correlación."
+        },
+        "eixo_x": {
+          "pt": "Tempo no ar",
+          "en": "Time live",
+          "es": "Tiempo publicado"
+        },
+        "eixo_y": {
+          "pt": "Mediana de views",
+          "en": "Median views",
+          "es": "Mediana de vistas"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "TikTok",
+              "en": "TikTok",
+              "es": "TikTok"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                "menos de 24 h",
+                517.0
+              ],
+              [
+                "24 a 48 h",
+                522.0
+              ],
+              [
+                "mais de 48 h",
+                498.0
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "menos de 24 h",
+                "24 a 48 h",
+                "mais de 48 h"
+              ],
+              "en": [
+                "under 24 h",
+                "24 to 48 h",
+                "over 48 h"
+              ],
+              "es": [
+                "menos de 24 h",
+                "24 a 48 h",
+                "más de 48 h"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "YouTube",
+              "en": "YouTube",
+              "es": "YouTube"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "menos de 24 h",
+                76.0
+              ],
+              [
+                "24 a 48 h",
+                4.0
+              ],
+              [
+                "mais de 48 h",
+                5.0
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "menos de 24 h",
+                "24 a 48 h",
+                "mais de 48 h"
+              ],
+              "en": [
+                "under 24 h",
+                "24 to 48 h",
+                "over 48 h"
+              ],
+              "es": [
+                "menos de 24 h",
+                "24 a 48 h",
+                "más de 48 h"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Nenhuma parte da nota resiste à correção para múltiplos testes (p ajustado ≥ 0,29)",
+          "en": "No part of the score survives the multiple-testing correction (adjusted p ≥ 0.29)",
+          "es": "Ninguna parte de la nota resiste la corrección por pruebas múltiples (p ajustado ≥ 0,29)"
+        },
+        "leitura": {
+          "pt": "Correlação dentro do canal entre cada um dos 10 componentes da nota e as views, com p-valor ajustado por Benjamini-Hochberg. Nenhum componente se destaca o bastante para guiar a recalibração.",
+          "en": "Within-channel correlation between each of the 10 score components and views, with Benjamini-Hochberg adjusted p-values. No component stands out enough to guide a recalibration.",
+          "es": "Correlación dentro del canal entre cada uno de los 10 componentes de la nota y las vistas, con p-valor ajustado por Benjamini-Hochberg. Ningún componente destaca lo suficiente para guiar la recalibración."
+        },
+        "eixo_x": {
+          "pt": "Componente da nota",
+          "en": "Score component",
+          "es": "Componente de la nota"
+        },
+        "eixo_y": {
+          "pt": "Correlação dentro do canal",
+          "en": "Within-channel correlation",
+          "es": "Correlación dentro del canal"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Correlação dentro do canal",
+              "en": "Within-channel correlation",
+              "es": "Correlación dentro del canal"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "ensina algo",
+                0.2706
+              ],
+              [
+                "gancho nos 3 primeiros segundos",
+                0.2466
+              ],
+              [
+                "humor",
+                0.2137
+              ],
+              [
+                "dá vontade de compartilhar",
+                0.2018
+              ],
+              [
+                "nota do juiz de IA",
+                0.183
+              ],
+              [
+                "métricas do vídeo de origem",
+                0.1241
+              ],
+              [
+                "começo, meio e fim",
+                -0.1145
+              ],
+              [
+                "energia",
+                0.0693
+              ],
+              [
+                "faz sentido sozinho",
+                0.0641
+              ],
+              [
+                "emoção",
+                -0.0218
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "ensina algo",
+                "gancho nos 3 primeiros segundos",
+                "humor",
+                "dá vontade de compartilhar",
+                "nota do juiz de IA",
+                "métricas do vídeo de origem",
+                "começo, meio e fim",
+                "energia",
+                "faz sentido sozinho",
+                "emoção"
+              ],
+              "en": [
+                "teaches something",
+                "hook in the first 3 seconds",
+                "humor",
+                "makes you want to share",
+                "AI judge score",
+                "source-video metrics",
+                "beginning, middle and end",
+                "energy",
+                "stands on its own",
+                "emotion"
+              ],
+              "es": [
+                "enseña algo",
+                "gancho en los 3 primeros segundos",
+                "humor",
+                "dan ganas de compartir",
+                "nota del juez de IA",
+                "métricas del video de origen",
+                "principio, medio y fin",
+                "energía",
+                "se entiende solo",
+                "emoción"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

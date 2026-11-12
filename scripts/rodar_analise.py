@@ -13,7 +13,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from nota_viral import analise, dados, graficos
+from nota_viral import analise, dados, graficos, site
 
 SAIDA = Path("reports")
 FIGURAS = SAIDA / "figuras"
@@ -78,6 +78,10 @@ def main() -> None:
             tabela[["canal", "plataforma", "nicho", "nota", "views", "curtidas", "horas_no_ar"]].to_json(orient="records", force_ascii=False)
         ),
     }
+    # O texto e o gráfico principal do site vêm de outro arquivo; daqui saem só os gráficos extras, calculados a
+    # partir do próprio dicionário de resultados (passado por JSON para usar exatamente os números gravados).
+    gravados = json.loads(json.dumps(resultados, ensure_ascii=False, default=float))
+    resultados["para_o_site"] = {"graficos_extras": site.graficos_extras(gravados)}
     (SAIDA / "resultados.json").write_text(json.dumps(resultados, indent=2, ensure_ascii=False, default=float), encoding="utf-8")
 
     pd.set_option("display.width", 220)
